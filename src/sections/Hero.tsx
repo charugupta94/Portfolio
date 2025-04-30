@@ -49,7 +49,7 @@ const Hero = () => {
             <div className="w-full h-full rounded-full overflow-hidden border-4 border-cyan-400/30 p-1">
               {/* Replace with your photo */}
               <img 
-                src="/public/formal.png" 
+                src="/formal.png" 
                 alt="Developer Portrait" 
                 className="w-full h-full object-cover rounded-full transition-all duration-500"
               />
