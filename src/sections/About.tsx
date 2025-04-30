@@ -39,14 +39,18 @@ const About = () => {
           <Card className="p-8 h-full">
             <h3 className="text-xl font-semibold mb-4 text-cyan-400">Who I Am</h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
-              I am a Full Stack Developer with a passion for coding and problem-solving. I specialize in building scalable web applications and continuously improving my skills.
+              I am a Full Stack Developer with a strong passion for coding, design, and solving complex problems through technology. I specialize in building scalable, high-performance web applications that are both user-friendly and maintainable. I thrive in collaborative environments and enjoy transforming ideas into real-world digital solutions.
             </p>
             <p className="text-gray-300 mb-4 leading-relaxed">
-              With hands-on experience in both frontend and backend technologies, I excel at building websites using React.js, Node.js, Express.js, PHP (Laravel) and databases like MongoDB and MySQL.
+              With hands-on experience in both frontend and backend development, I excel at creating seamless user interfaces using modern frameworks like React.js and developing robust server-side logic with Node.js, Express.js, and PHP (Laravel). I am also skilled in working with databases such as MongoDB and MySQL, ensuring data integrity and optimized performance across applications.
+            </p>
+            <p className="text-gray-300 mb-4 leading-relaxed">
+              I am deeply committed to continuous learning and professional growth. I consistently dedicate time to mastering Data Structures and Algorithms (DSA) to enhance my problem-solving skills and technical depth. This disciplined approach helps me write cleaner, more efficient code and tackle technical challenges with confidence.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              I am constantly improving my skills and learning Data Structures and Algorithms (DSA) daily to enhance my problem-solving abilities. Always eager to explore new technologies and optimize performance.
+              Whether it's adopting new tools, exploring emerging technologies, or contributing to open-source projects, I am always eager to push boundaries and deliver impactful solutions. My goal is to not only build applications but to create experiences that add value and drive innovation.
             </p>
+
           </Card>
         </div>
 

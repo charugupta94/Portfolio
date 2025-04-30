@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <Code2 className="h-8 w-8 text-cyan-400" />
               <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                Dev Portfolio
+                Charu Gupta
               </span>
             </div>
             <p className="text-gray-300 mb-4">
@@ -20,7 +20,7 @@ const Footer = () => {
             <Button 
               text="Download CV" 
               icon={<Download size={16} />} 
-              href="/resume.pdf" 
+              href="/Charu Gupta Resume.pdf" 
               download 
               className="mt-2"
             />
@@ -51,25 +51,25 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <Mail size={16} className="text-cyan-400" />
-                <a href="mailto:contact@example.com" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  contact@example.com
+                <a href="mailto:charugupta860@gmail.com" className="text-gray-300 hover:text-white transition-colors duration-200">
+                  charugupta860@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} className="text-cyan-400" />
                 <a href="tel:+1234567890" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  +1 (234) 567-890
+                  +91 639-640-1458
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Github size={16} className="text-cyan-400" />
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
+                <a href="https://github.com/charugupta94" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
                   GitHub
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Linkedin size={16} className="text-cyan-400" />
-                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
+                <a href="https://www.linkedin.com/in/charug86/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
                   LinkedIn
                 </a>
               </li>

@@ -58,7 +58,7 @@ const getIconUrl = (iconName: string) => {
     "nodejs.svg": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     "express.svg": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
     "php.svg": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
-    "laravel.svg": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg",
+    "laravel.svg": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
     "mongodb.svg": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     "mysql.svg": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
     "postgresql.svg": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",

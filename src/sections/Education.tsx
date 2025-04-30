@@ -9,7 +9,7 @@ const educationTimeline = [
     field: "Computer Science",
     institution: "Lovely Professional University",
     location: "Punjab, India",
-    duration: "2021 - Present",
+    duration: "2022 - Present",
     year: "3rd Year",
     description: "Currently pursuing B.Tech in Computer Science with focus on software development and engineering principles.",
     icon: <GraduationCap className="h-8 w-8 text-cyan-400" />

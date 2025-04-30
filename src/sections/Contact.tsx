@@ -46,19 +46,19 @@ const Contact = () => {
     {
       icon: <Mail className="h-5 w-5 text-cyan-400" />,
       title: "Email",
-      value: "contact@example.com",
-      href: "mailto:contact@example.com"
+      value: "charugupta860@gmail.com",
+      href: "mailto:charugupta860@gmail.com"
     },
     {
       icon: <Phone className="h-5 w-5 text-cyan-400" />,
       title: "Phone",
-      value: "+1 (234) 567-890",
-      href: "tel:+1234567890"
+      value: "6396401458",
+      href: "tel:+91 6396401458"
     },
     {
       icon: <MapPin className="h-5 w-5 text-cyan-400" />,
       title: "Location",
-      value: "Punjab, India",
+      value: "Gurgaon, Haryana , India",
       href: null
     }
   ];
@@ -66,18 +66,13 @@ const Contact = () => {
   const socialLinks = [
     {
       icon: <Github className="h-5 w-5" />,
-      href: "https://github.com/",
+      href: "https://github.com/charugupta94",
       label: "GitHub"
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
-      href: "https://linkedin.com/",
+      href: "https://www.linkedin.com/in/charug86/",
       label: "LinkedIn"
-    },
-    {
-      icon: <Twitter className="h-5 w-5" />,
-      href: "https://twitter.com/",
-      label: "Twitter"
     }
   ];
 

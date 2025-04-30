@@ -6,28 +6,28 @@ import { Calendar, Award, ExternalLink } from 'lucide-react';
 
 const certifications = [
   {
-    title: "Web Development Bootcamp",
-    issuer: "Udemy",
-    date: "March 2023",
-    description: "Comprehensive web development bootcamp covering HTML, CSS, JavaScript, React.js, Node.js, Express, and MongoDB.",
-    image: "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    url: "https://example.com/certificate1"
+    title: "Programming in C++: A Hands-on Introduction ",
+    issuer: "Coursera",
+    date: "March 202",
+    description: "A hands-on introduction to programming in C++ covering basic syntax, data types, and control structures.",
+    image: "/Coursera1.png",
+    url: "https://www.coursera.org/account/accomplishments/specialization/certificate/QUJGTRUPWMET"
   },
   {
-    title: "Data Structures & Algorithms",
+    title: "Server side JavaScript with Node.js",
     issuer: "Coursera",
     date: "June 2023",
-    description: "In-depth study of data structures and algorithms including arrays, linked lists, trees, graphs, sorting, and searching algorithms.",
-    image: "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    url: "https://example.com/certificate2"
+    description: "Comprehensive course on server-side JavaScript development using Node.js, Express, and MongoDB.",
+    image: "Coursera1.png",
+    url: "https://www.coursera.org/account/accomplishments/certificate/ZBXAPMEKEVZ6"
   },
   {
-    title: "React Native Specialization",
-    issuer: "edX",
-    date: "October 2023",
-    description: "Specialized course on building cross-platform mobile applications using React Native, Redux, and native device features.",
-    image: "https://images.pexels.com/photos/4974920/pexels-photo-4974920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    url: "https://example.com/certificate3"
+    title: "Building Web Applications in PHP",
+    issuer: "Coursera",
+    date: "December 2024",
+    description: "Learn how to build dynamic web applications using PHP, covering topics like sessions, cookies, and database integration.",
+    image: "Coursera1.png",
+    url: "https://www.coursera.org/account/accomplishments/certificate/2LLL05JVLGVF"
   }
 ];
 

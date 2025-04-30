@@ -36,7 +36,7 @@ const Hero = () => {
               <Button 
                 text="Download Resume" 
                 icon={<Download size={18} />}
-                href="/resume.pdf"
+                href="/Charu Gupta Resume.pdf"
                 download
               />
             </div>

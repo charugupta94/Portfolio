@@ -6,11 +6,19 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
+    title: "AI Safety Incident Dashboard",
+    description: "An interactive dashboard for monitoring and analyzing AI safety incidents. Provides real-time data visualization, incident reporting, and trend analysis.",
+    image: "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    technologies: ["Next.js", "TailwindCSS", "TypeScript", "Chart.js"],
+    githubUrl: "https://github.com/charugupta94/AI-Safety-Incident-Dashboard",
+    liveUrl: "https://ai-safety-incident-dashboard-iota.vercel.app/"
+  },
+  {
     title: "Blogging Website",
     description: "A comprehensive blogging platform built with the MERN stack (MongoDB, Express, React, Node.js). Features include user authentication, rich text editing, comment system, and responsive design.",
     image: "https://images.pexels.com/photos/6469/red-hands-woman-creative.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     technologies: ["React.js", "Node.js", "MongoDB", "Express.js"],
-    githubUrl: "https://github.com/",
+    githubUrl: "https://github.com/charugupta94/Blogging-Website",
     liveUrl: "https://example.com/"
   },
   {
@@ -18,15 +26,7 @@ const projects = [
     description: "A food ordering website with an intuitive user interface. Users can browse restaurants, view menus, place orders, and track delivery status in real-time.",
     image: "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    githubUrl: "https://github.com/",
-    liveUrl: "https://example.com/"
-  },
-  {
-    title: "AI Safety Incident Dashboard",
-    description: "An interactive dashboard for monitoring and analyzing AI safety incidents. Provides real-time data visualization, incident reporting, and trend analysis.",
-    image: "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    technologies: ["Next.js", "TailwindCSS", "TypeScript", "Chart.js"],
-    githubUrl: "https://github.com/",
+    githubUrl: "https://github.com/charugupta94/Food-Ordering-Website",
     liveUrl: "https://example.com/"
   }
 ];
