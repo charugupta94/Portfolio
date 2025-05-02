@@ -5,7 +5,6 @@ import Button from '../components/Button';
 const Hero = () => {
   return (
     <div className="relative min-h-screen flex items-center">
-      {/* Decorative elements */}
       <div className="absolute inset-0 overflow-hidden z-0">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl"></div>
         <div className="absolute top-1/2 -left-40 w-80 h-80 bg-cyan-500/20 rounded-full blur-3xl"></div>
@@ -47,7 +46,6 @@ const Hero = () => {
           <div className="relative w-64 h-64 md:w-80 md:h-80 animate-float">
             <div className="absolute inset-0 rounded-full blur-xl opacity-20 animate-pulse"></div>
             <div className="w-full h-full rounded-full overflow-hidden border-4 border-cyan-400/30 p-1">
-              {/* Replace with your photo */}
               <img 
                 src="/formal.png" 
                 alt="Developer Portrait" 
@@ -58,7 +56,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 rounded-full border-2 border-cyan-400 flex justify-center pt-1">
           <div className="w-1 h-2 bg-cyan-400 rounded-full animate-scrollDown"></div>

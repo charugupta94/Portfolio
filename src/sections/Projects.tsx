@@ -14,6 +14,14 @@ const projects = [
     liveUrl: "https://ai-safety-incident-dashboard-iota.vercel.app/"
   },
   {
+    title: "Weather App",
+    description: "A weather forecasting application that provides real-time weather updates, forecasts, and alerts. Users can search for locations and view detailed weather information.",
+    image: "https://images.pexels.com/photos/128908/pexels-photo-128908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    technologies: ["React.js", "Node.js", "Express.js", "OpenWeatherMap API"],
+    githubUrl: "https://github.com/charugupta94/Weather-app",
+    liveUrl: "https://weather-app-theta-fawn-49.vercel.app/"
+  },
+  {
     title: "Blogging Website",
     description: "A comprehensive blogging platform built with the MERN stack (MongoDB, Express, React, Node.js). Features include user authentication, rich text editing, comment system, and responsive design.",
     image: "https://images.pexels.com/photos/6469/red-hands-woman-creative.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",

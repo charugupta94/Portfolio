@@ -26,18 +26,15 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate sending form data
     setTimeout(() => {
       console.log('Form submitted:', formData);
       setIsSubmitting(false);
-      // Reset form
       setFormData({
         name: '',
         email: '',
         subject: '',
         message: ''
       });
-      // Show success message (would be implemented with a toast or alert in a real app)
       alert('Message sent successfully!');
     }, 1500);
   };
@@ -201,7 +198,6 @@ const Contact = () => {
                 primary
                 icon={<Send size={16} />} 
                 className="w-full sm:w-auto"
-                // Using a standard button type so form validation works
               />
             </form>
           </Card>

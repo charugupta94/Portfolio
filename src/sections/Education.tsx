@@ -43,7 +43,6 @@ const Education = () => {
       />
       
       <div className="relative">
-        {/* Timeline connector */}
         <div className="absolute left-0 md:left-1/2 h-full w-px bg-gray-700 transform md:translate-x-0.5 translate-x-5 z-0"></div>
         
         <div className="space-y-12 relative z-10">
@@ -51,17 +50,15 @@ const Education = () => {
             <div key={index} className={`flex flex-col md:flex-row gap-8 ${
               index % 2 === 0 ? 'md:flex-row-reverse' : ''
             }`}>
-              {/* Timeline dot */}
               <div className="absolute left-5 md:left-1/2 w-10 h-10 rounded-full bg-slate-800 border-4 border-cyan-400 transform md:-translate-x-5 -translate-x-5 flex items-center justify-center shadow-lg shadow-cyan-900/20">
                 <div className="w-2 h-2 rounded-full bg-cyan-400"></div>
               </div>
               
-              {/* Content */}
               <div className={`md:w-1/2 ml-14 md:ml-0 ${
                 index % 2 === 0 ? 'md:mr-12' : 'md:ml-12'
               }`}>
                 <Card className="p-6 md:p-8 relative overflow-visible">
-                  {/* Animated indicator */}
+        
                   <div className={`absolute top-8 ${
                     index % 2 === 0 ? 'left-0 -translate-x-full' : 'right-0 translate-x-full'
                   } transform hidden md:block`}>

@@ -1,7 +1,6 @@
 import React from 'react';
 import SectionHeading from '../components/SectionHeading';
 
-// Define skill categories and their items
 const skillCategories = [
   {
     name: "Frontend",
@@ -44,9 +43,7 @@ const skillCategories = [
   }
 ];
 
-// Map actual icon imports or URLs
 const getIconUrl = (iconName: string) => {
-  // This would ideally use actual icons, but for this example we'll use placeholders
   const iconMap: { [key: string]: string } = {
     "html5.svg": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     "css3.svg": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
@@ -106,8 +103,6 @@ const Skills = () => {
                   <span className="mt-3 text-gray-300 font-medium group-hover:text-cyan-400 transition-colors duration-300">
                     {skill.name}
                   </span>
-                  
-                  {/* Glow effect */}
                   <div className="absolute  w-20 h-20 md:w-24 md:h-24  bg-gradient-to-r from-cyan-400 to-blue-500 rounded-xl opacity-0 group-hover:opacity-20 blur transition duration-500 group-hover:duration-300"></div>
                 </div>
               ))}
