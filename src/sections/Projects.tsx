@@ -16,7 +16,7 @@ const projects = [
   {
     title: "Weather App",
     description: "A weather forecasting application that provides real-time weather updates, forecasts, and alerts. Users can search for locations and view detailed weather information.",
-    image: "https://images.pexels.com/photos/128908/pexels-photo-128908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/04/Apple-Weather-app.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
     technologies: ["React.js", "Node.js", "Express.js", "OpenWeatherMap API"],
     githubUrl: "https://github.com/charugupta94/Weather-app",
     liveUrl: "https://weather-app-theta-fawn-49.vercel.app/"
